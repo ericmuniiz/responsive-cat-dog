@@ -22,6 +22,14 @@
     align-items: center;
     justify-content: space-between;
 }
+.inner-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 25px;
+}
 .one-column{
     width: 100vw;
 }
@@ -82,9 +90,11 @@ ul, li{
         flex-direction: column;
         justify-content: space-between;
         align-items: center; 
-        align-content: center
+        align-content: center;
+        
     }
     .button{
         color: $preto;
     }
+
 }
